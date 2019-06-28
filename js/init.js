@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('.loaderScreen').fadeOut();
     //initialize parent section height
     const body = document.getElementById('fullWidth');
     let screenHeight = window.innerHeight + 'px';
@@ -7,4 +8,5 @@ $(document).ready(function () {
         let screenHeight = window.innerHeight + 'px';
         body.style.height = screenHeight;
     });
+
 });
